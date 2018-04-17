@@ -18,7 +18,7 @@ USE `opsworks_book_demo`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `templates`
+-- Table structure for table `opsworks_book_demo`
 --
 
 DROP TABLE IF EXISTS `templates`;
@@ -34,13 +34,13 @@ CREATE TABLE `templates` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `templates`
+-- Dumping data for table `opsworks_book_demo`
 --
 
 LOCK TABLES `templates` WRITE;
-/*!40000 ALTER TABLE `templates` DISABLE KEYS */;
-INSERT INTO `templates` VALUES (1,'Bootstraptor free KIT Twitter Bootstrap templates','WHAT IN THIS BOX Gradually accumulated some templates, we have decided to provide it for Bootstrap community. Free of charge to download a set of basic template build with Bootstrap framework on his popular base.','http://www.bootstraptor.com/'),(2,'Bootstrap Fireworks Toolkit','The original Bootstrap Toolkit for Adobe Fireworks. It contains all of the version 2.1 ui elements created as reusable vectors. Copy and Paste them over to your new Fireworks document to create your designs. Perfect for creating web apps!','http://www.fireworkstoolkits.com/'),(3,'How To Build and Customize Your Own Bootstrap Theme','A guide on quickly choosing the right colors for your bootstrap theme and how to efficiently build said theme. Also includes other resources and a list of unique sites built with Bootstrap','http://antjanus.com/blog/web-development-tutorials/how-to-build-your-own-bootstrap-theme/'),(4,'Bootstrap Infographic','A very nice interactive inforgraphic about Twitter Bootstrap','http://www.templatemonster.com/infographics/bootstrap-interactive-infographics.php');
-/*!40000 ALTER TABLE `templates` ENABLE KEYS */;
+/*!40000 ALTER TABLE `opsworks_book_demo` DISABLE KEYS */;
+INSERT INTO `templates` VALUES (1,'Bootstraptor free KIT Twitter Bootstrap opsworks_book_demo','WHAT IN THIS BOX Gradually accumulated some templates, we have decided to provide it for Bootstrap community. Free of charge to download a set of basic template build with Bootstrap framework on his popular base.','http://www.bootstraptor.com/'),(2,'Bootstrap Fireworks Toolkit','The original Bootstrap Toolkit for Adobe Fireworks. It contains all of the version 2.1 ui elements created as reusable vectors. Copy and Paste them over to your new Fireworks document to create your designs. Perfect for creating web apps!','http://www.fireworkstoolkits.com/'),(3,'How To Build and Customize Your Own Bootstrap Theme','A guide on quickly choosing the right colors for your bootstrap theme and how to efficiently build said theme. Also includes other resources and a list of unique sites built with Bootstrap','http://antjanus.com/blog/web-development-tutorials/how-to-build-your-own-bootstrap-theme/'),(4,'Bootstrap Infographic','A very nice interactive inforgraphic about Twitter Bootstrap','http://www.templatemonster.com/infographics/bootstrap-interactive-infographics.php');
+/*!40000 ALTER TABLE `opsworks_book_demo` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
